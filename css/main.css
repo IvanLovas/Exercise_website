@@ -77,4 +77,40 @@ main {
       width: 60%;
       margin: 1em auto; }
 
+.section2 {
+  padding: 5% 8%;
+  background: #f7faff; }
+  .section2 h2 {
+    color: #1E182E;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+    text-align: right; }
+  .section2 .table {
+    width: 80%;
+    margin: 0 auto; }
+    .section2 .table .wrap {
+      display: inline-block;
+      width: 30%;
+      text-align: center; }
+      .section2 .table .wrap h3 {
+        line-height: 3em;
+        font-weight: normal;
+        color: white;
+        background: #1E182E;
+        border: 1px solid #1E182E; }
+      .section2 .table .wrap p {
+        border: 1px solid #1E182E;
+        padding: 1em; }
+      .section2 .table .wrap a {
+        text-decoration: none;
+        color: white;
+        background: #1E182E;
+        display: block;
+        line-height: 2.5em; }
+      .section2 .table .wrap:hover h3, .section2 .table .wrap:hover a {
+        background: #D17364;
+        border-color: #D17364; }
+      .section2 .table .wrap:hover p {
+        border-color: #D17364; }
+
 /*# sourceMappingURL=main.css.map */

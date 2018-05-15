@@ -99,3 +99,56 @@ main {
 	}
 
 }
+
+.section2 {
+		padding: 5% 8%;
+		background: $grey;
+
+	h2 {
+		color: $darkBlue;
+		text-transform: uppercase;
+		margin-bottom: 2em;
+		text-align: right;
+	}
+
+	.table {
+			width: 80%;
+			margin: 0 auto;
+		.wrap {
+			display: inline-block;
+			width: 30%;
+			text-align: center;
+
+			h3 {
+				line-height: 3em;
+				font-weight: normal;
+				color: white;
+				background: $darkBlue;
+				border: 1px solid $darkBlue;
+			}
+
+			p {
+				border: 1px solid $darkBlue;
+				padding: 1em;
+			}
+
+			a {
+				text-decoration: none;
+				color: white;
+				background: $darkBlue;
+				display: block;
+				line-height: 2.5em;
+			}
+
+			&:hover {
+				h3, a {
+					background: $red;
+					border-color: $red;
+				}
+				p {
+					border-color: $red;
+				}
+			}
+		}
+	}
+}
