@@ -1,3 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
+nav {
+  width: 100%;
+  text-align: center;
+  height: 3em; }
+  nav ul {
+    list-style: none;
+    width: 50%;
+    margin: 0 auto;
+    height: 3em;
+    text-align: center; }
+    nav ul li {
+      line-height: 3em;
+      float: left;
+      width: 14%;
+      height: 3em; }
+      nav ul li a {
+        text-decoration: none;
+        color: #1E182E;
+        font-size: 1em; }
+        nav ul li a:hover {
+          color: #D17364; }
+      nav ul li img {
+        width: 3em; }
 
 /*# sourceMappingURL=main.css.map */
