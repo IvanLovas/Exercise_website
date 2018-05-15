@@ -152,3 +152,41 @@ main {
 		}
 	}
 }
+
+.section3 {
+	padding: 5% 20% 5% 10%;
+	background: $darkBlue;
+	@include clearfix;
+
+	h3 {
+		color: $red;
+		line-height: 3em;
+	}
+
+	.left {
+		float: left;
+		width: 50%;
+
+		p {
+			text-align: justify;
+			color: white;
+		}
+	}
+
+	.right {
+		float: right;
+
+		ul {
+			list-style-image: url('../bullet.png');
+
+			li {
+
+				a {
+					text-decoration: none;
+					color: white;	
+					
+				}
+			}
+		}
+	}
+}

@@ -113,4 +113,29 @@ main {
       .section2 .table .wrap:hover p {
         border-color: #D17364; }
 
+.section3 {
+  padding: 5% 20% 5% 10%;
+  background: #1E182E; }
+  .section3:before, .section3:after {
+    content: "";
+    display: table; }
+  .section3:after {
+    clear: both; }
+  .section3 h3 {
+    color: #D17364;
+    line-height: 3em; }
+  .section3 .left {
+    float: left;
+    width: 50%; }
+    .section3 .left p {
+      text-align: justify;
+      color: white; }
+  .section3 .right {
+    float: right; }
+    .section3 .right ul {
+      list-style-image: url("../bullet.png"); }
+      .section3 .right ul li a {
+        text-decoration: none;
+        color: white; }
+
 /*# sourceMappingURL=main.css.map */
