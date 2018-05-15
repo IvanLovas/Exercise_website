@@ -57,6 +57,11 @@ main {
 
 .section1 {
   padding: 5% 10%; }
+  .section1:before, .section1:after {
+    content: "";
+    display: table; }
+  .section1:after {
+    clear: both; }
   .section1 h2 {
     color: #1E182E;
     text-transform: uppercase;
@@ -137,5 +142,38 @@ main {
       .section3 .right ul li a {
         text-decoration: none;
         color: white; }
+
+@media screen and (max-width: 1250px) {
+  nav ul {
+    width: 60%; }
+
+  main {
+    padding: 5% 5% 35%; }
+    main h1 {
+      font-size: 2.5em; }
+
+  .section1 {
+    padding: 5% 5%; }
+    .section1 .col {
+      float: left;
+      width: 100%; }
+      .section1 .col h3 {
+        text-align: left; }
+      .section1 .col p {
+        float: left;
+        width: 70%;
+        text-align: right; }
+      .section1 .col img {
+        float: rigth;
+        display: inline;
+        margin: 0;
+        width: 20%;
+        padding: 2em; }
+
+  .section2 .table {
+    text-align: center; }
+    .section2 .table .wrap {
+      width: 40%;
+      margin-top: 1em; } }
 
 /*# sourceMappingURL=main.css.map */
