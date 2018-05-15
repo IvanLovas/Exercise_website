@@ -64,3 +64,38 @@ main {
 	}
 	
 }
+
+
+.section1 {
+	padding: 5% 10%;
+
+	h2 {
+		color: $darkBlue;
+		text-transform: uppercase;
+		margin-bottom: 2em;
+	}
+
+	.col {
+		display: inline-block;
+		width: 21%;
+		margin-left: 2em;
+
+		h3{
+			text-align: right;
+			text-transform: uppercase;
+			color: $blue;
+			margin-bottom: 1em;
+		}
+
+		p{
+			text-align: justify;
+		}
+
+		img {
+			display: block;
+			width: 60%;
+			margin: 1em auto;
+		}
+	}
+
+}

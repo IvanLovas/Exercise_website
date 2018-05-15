@@ -55,4 +55,26 @@ main {
       background: white;
       color: #D17364; }
 
+.section1 {
+  padding: 5% 10%; }
+  .section1 h2 {
+    color: #1E182E;
+    text-transform: uppercase;
+    margin-bottom: 2em; }
+  .section1 .col {
+    display: inline-block;
+    width: 21%;
+    margin-left: 2em; }
+    .section1 .col h3 {
+      text-align: right;
+      text-transform: uppercase;
+      color: #25496B;
+      margin-bottom: 1em; }
+    .section1 .col p {
+      text-align: justify; }
+    .section1 .col img {
+      display: block;
+      width: 60%;
+      margin: 1em auto; }
+
 /*# sourceMappingURL=main.css.map */
