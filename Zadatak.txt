@@ -1,0 +1,27 @@
+ZADATAK: 
+	Korišćenjem HTML i Sass tehnologija realizovati HTML stranicu prikazanu na slikama.
+	Implementirati sledeće zahteve:
+
+	1.	Sass kod modularizovati minimalno tako da se korišćene promenljive i mixini pišu u posebnim
+		sass datotekama koje se uključuju u glavni fajl.
+	2.	Sve boje (obavezno), fontove (neobavezno) kao i ostale korisne vrednosti (po sopstvenoj proceni)
+		izdvojiti u sass promenljive.
+	3.	Sva korišćena vendor-prefixed css pravila izdvojiti u mixine.
+	4.	Realizovati sledeće efekte:
+		a.	Kada se mišem pređe preko likova u glavnoj navigaciji, boju teksta promeniti u datu crvenu.
+		b.	Kada se mišem pređe preko dugmića u drugoj sekciji (Check out why), postaviti pozadine na belu a boju teksta na crvenu.
+		c.	Kada se mišem pređe preko elemenata u trećoj sekciji, promeniti tamnu boju u crvenu..
+			Primer je dat na slici "1.2_hover.png".
+		d.	Na velikoj verziji, tekst u donjem spomenutih elemenata treba da glasi 'Click to view', dok na ostalima
+			pise 'Tap to view' (Videti slike).
+	5.	Realizovati responsive verzije stranice kao na priloženim slikama.
+	6. 	Sliku 'logo.png' postaviti kao ikonicu sajta.
+
+BOJE: 
+	TAMNO PLAVA: 	#1E182E		(Boja teksta,pozadina sekcija 'Laptops', 'Smartphones' i 'Gadgets' kao i footera)
+	PLAVA:			#25496B		(Podnaslovi u sekciji 'Our products')
+	CRVENA:			#D17364
+	SIVA:			##f7faff	(Pozadina sekcije 'Choose one for you')
+
+WEB FONTOVI: 
+	Roboto
