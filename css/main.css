@@ -145,7 +145,7 @@ main {
 
 @media screen and (max-width: 1250px) {
   nav ul {
-    width: 60%; }
+    width: 80%; }
 
   main {
     padding: 5% 5% 35%; }
@@ -175,5 +175,54 @@ main {
     .section2 .table .wrap {
       width: 40%;
       margin-top: 1em; } }
+@media screen and (max-width: 800px) {
+  nav {
+    height: auto; }
+    nav:before, nav:after {
+      content: "";
+      display: table; }
+    nav:after {
+      clear: both; }
+    nav ul {
+      width: 100%; }
+      nav ul li {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #1E182E; }
+      nav ul li:nth-child(4) {
+        display: none; }
+
+  main {
+    display: none; }
+
+  .section1 {
+    text-align: center;
+    padding-top: 3em; }
+    .section1 .col {
+      width: 100%;
+      float: none;
+      margin: 0; }
+      .section1 .col h3 {
+        text-align: center; }
+      .section1 .col p {
+        width: 100%;
+        text-align: justify;
+        float: none; }
+      .section1 .col img {
+        display: none; }
+
+  .section2 .table .wrap {
+    width: 100%; }
+
+  .section3 .right {
+    float: none;
+    width: 100%; }
+    .section3 .right ul {
+      width: 100%; }
+      .section3 .right ul li {
+        width: 25%;
+        float: left; }
+  .section3 .left {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

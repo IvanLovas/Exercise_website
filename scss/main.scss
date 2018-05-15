@@ -195,7 +195,7 @@ main {
 
 	nav {
 		ul {
-			width: 60%;
+			width: 80%;
 		}
 	}
 
@@ -250,5 +250,82 @@ main {
 	}
 }
 
+}
+
+@media screen and (max-width: 800px) {
+		nav {
+			@include clearfix;
+			height: auto;
+
+			 ul {
+			 	width: 100%;
+
+			 	li {
+			 		display: block;
+			 		width: 100%;
+			 		border-bottom: 1px solid $darkBlue;
+				}
+
+				li:nth-child(4) {
+					display: none;
+				}
+			 }
+		}
+
+		main {
+			display: none;
+		}
+
+		.section1 {
+			text-align: center;
+			padding-top: 3em;
+
+			.col {
+				width: 100%;
+				float: none;
+				margin: 0;
+				h3 {
+					text-align: center;
+				}
+
+				p {
+					width: 100%;
+					text-align: justify;
+					float: none;
+				}
+
+				img {
+					display: none;
+				}
+			}
+		}
+
+		.section2 {
+				.table {
+					.wrap {
+						width: 100%;
+					}
+				} 
+		}
+
+		.section3 {
+			.right {
+				float: none;
+				width: 100%;
+
+				ul {
+					width: 100%;
+
+					li {
+						width: 25%;
+						float: left;
+					}
+				}
+			}
+
+			.left {
+				width: 100%;
+			}
+		}
 }
 
